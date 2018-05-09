@@ -117,33 +117,33 @@ htmlhelp_basename = 'euslisp_tutorialdoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_engine = 'platex'
+# latex_engine = 'platex'
 
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    # 'papersize': 'letterpaper',
+# latex_elements = {
+#     # The paper size ('letterpaper' or 'a4paper').
+#     #
+#     # 'papersize': 'letterpaper',
 
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    # 'pointsize': '10pt',
+#     # The font size ('10pt', '11pt' or '12pt').
+#     #
+#     # 'pointsize': '10pt',
 
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
+#     # Additional stuff for the LaTeX preamble.
+#     #
+#     # 'preamble': '',
 
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
-}
+#     # Latex figure (float) alignment
+#     #
+#     # 'figure_align': 'htbp',
+# }
 
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'euslisp_tutorial.tex', u'euslisp\\_tutorial Documentation',
-     u'Hiroaki Yaguchi', 'manual'),
-]
+# # Grouping the document tree into LaTeX files. List of tuples
+# # (source start file, target name, title,
+# #  author, documentclass [howto, manual, or own class]).
+# latex_documents = [
+#     (master_doc, 'euslisp_tutorial.tex', u'euslisp\\_tutorial Documentation',
+#      u'Hiroaki Yaguchi', 'manual'),
+# ]
 
 
 # -- Options for manual page output ------------------------------------------
